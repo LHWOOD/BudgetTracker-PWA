@@ -22,11 +22,11 @@ A Budget Tracking application that allows for offline asscess and functionality
 
 ## Installation
 
-TBD
+No installation required as this app is run in the browser.
 
 ## Usage
 
-TBD
+Please follow this link to the deployed site: https://blooming-beyond-61144.herokuapp.com/
 
 ## Contributing
 
@@ -34,7 +34,7 @@ Please feel free to contribute enhancements for future deployment.
 
 ## Tests
 
-TBD
+Testing has not been conducted for version 1.0
 
 ## License
 
