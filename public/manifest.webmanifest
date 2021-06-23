@@ -1,0 +1,7 @@
+{
+  "short_name": "BudgetTracker",
+  "name": "BudgetTracker",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

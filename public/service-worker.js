@@ -5,8 +5,6 @@ const FILES_TO_CACHE = [
   "styles.css",
   "manifest.webmanifest",
   "db.js",
-  "/icons/icon/-192x192.png",
-  "/icons/icon/-512x512.png",
 ];
 
 const DATA_CACHE_NAME = "data-cache-v1";
@@ -19,7 +17,7 @@ self.addEventListener("install", function (event) {
       return cache.addAll(FILES_TO_CACHE);
     })
   );
-  self.clients.claim();
+  self.skipWaiting();
 });
 
 self.addEventListener("fetch", function (event) {
